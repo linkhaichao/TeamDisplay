@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <!--link:favicon-->
+    <!--全屏滚动插件-->
+    <!--[if lt IE 9]>
+    <script src="lib/html5shiv/html5shiv.min.js"></script>
+    <script src="lib/respond/respond.min.js"></script>
+    <![endif]-->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/jquery.easing.min.js"></script>
+    <script src="./js/jquery.scrollify.min.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=cezW5zYO9AvHRNIjUrAhnGSA"></script>
+    <!--图标css-->
+    <link rel="stylesheet" href="./css/iconfont.css">
+    <style type="text/css">
+        #allmap{width:100%;height:100%;}
+    </style>
+</head>
+
+<body>
+<!--首页-->
+<div id="teamIndex" class="panel" data-section-name="page1">
+    <div class="container">
+        <div class="all">
+            <div class="fl">
+                <img src="./img/index.png" alt="logo">
+                <!--intelligent manufacturing-->
+            </div>
+            <div class="fr suoyin">
+                <span class="active" data-id=0>首页</span>&nbsp;&nbsp;
+                <span  data-id="1">关于我们</span>&nbsp;&nbsp;
+                <span  data-id="2">成员介绍</span>&nbsp;&nbsp;
+                <span  data-id="3">招聘求职</span>&nbsp;&nbsp;
+                <span  data-id="4">联系我们</span>
+            </div>
+        </div>
+        <div>
+            <h2 class="wel1">欢迎来到</h2>
+            <h2 class="wel2">莞工智能计算团队</h2>
+        </div>
+        <div>
+            <span class="icon iconfont icon-shuangjiantouxia welcome"></span>
+        </div>
+    </div>
+</div>
+<!--关于我们 -->
+<div id="teamAbout" class="panel indexCom" data-section-name="page3">
+    <div style="padding-top:10px;padding-bottom: 10px; background-color:rgba(255,255,255,0.9);">
+        <div class="container">
+
+            <div class="all">
+                <div class="fl">
+                    <img src="./img/bannerTop.png" alt="logo">
+                    <!--intelligent manufacturing-->
+                </div>
+                <div class="fr suoyin">
+                    <span  data-id=0>首页</span>&nbsp;&nbsp;
+                    <span class="active" data-id="1">关于我们</span>&nbsp;&nbsp;
+                    <span  data-id="2">成员介绍</span>&nbsp;&nbsp;
+                    <span  data-id="3">招聘求职</span>&nbsp;&nbsp;
+                    <span  data-id="4">联系我们</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <h2>关于我们</h2>
+        <div>
+            智能制造源于人工智能的研究。一般认为智能是知识和智力的总和，前者是智能的基础，后者 是指获取和运用知识求解的智能制造源于人工智能的研究。一般认为智能是知识和智力的总和，前者是智能的基础，后者 是指获取和运用知识求解的，智能制造源于人工智能的研究。一般认为智能是知识和智力的总和，前者是智能的基础，后者 是指获取和运用知识求解的
+            智能制造源于人工智能的研究。一般认为智能是知识和智力的总和，前者是智能的基础，后者 是指获取和运用知识求解的智能制造源于人工智能的研究。一般认为智能是知识和智力的总和，前者是智能的基础，后者 是指获取和运用知识求解的，智能制造源于人工智能的研究。一般认为智能是知识和智力的总和，前者是智能的基础，后者 是指获取和运用知识求解的。
+        </div>
+        <!--<div class="row">
+            <div class="col-md-4 aboutAll">
+                <div class="outer">
+                    <div class="inner">
+                        <span class="icon iconfont icon-gongzuo1"></span>
+
+                    </div>
+                </div>
+                <p class="txtTitle">工作内容</p>
+                <P class="txtCon">
+                    <span class="icon iconfont icon-sanjiao-copy"></span>
+                    智能制造应当包含智能制造技术和智能制造 系统，智能制造系统不仅能够在实践中不断 地充实知识库 ，具有自学习功能，还有搜集 与
+                </P>
+            </div>
+            <div class="col-md-4 aboutAll">
+                <div class="outer">
+                    <div class="inner">
+                        <span class="icon iconfont icon-gongsizongzhi01"></span>
+                    </div>
+                </div>
+                <p class="txtTitle">团队宗旨</p>
+                <P class="txtCon">
+                    <span class="icon iconfont icon-sanjiao-copy"></span>
+                    智能制造应当包含智能制造技术和智能制造 系统，智能制造系统不仅能够在实践中不断 地充实知识库 ，具有自学习功能，还有搜集 与理
+                </P>
+            </div>
+            <div class="col-md-4 aboutAll">
+                <div class="outer">
+                    <div class="inner">
+                        <span class="icon iconfont icon-meitixuanchuan"></span>
+                    </div>
+                </div>
+                <p class="txtTitle">团队宣言</p>
+                <P class="txtCon">
+                    <span class="icon iconfont icon-sanjiao-copy"></span>
+                    智能制造应当包含智能制造技术和智能制造 系统，智能制造系统不仅能够在实践中不断 地充实知识库 ，具有自学习功能，还有搜集 与理
+                </P>
+            </div>
+        </div>-->
+    </div>
+</div>
+<!--成员介绍-->
+<div id="teamIntroduce" class="panel indexCom" data-section-name="page2">
+    <div style="padding-top:10px;padding-bottom: 10px; background-color:rgba(255,255,255,0.9);">
+        <div class="container">
+
+            <div class="all">
+                <div class="fl">
+                    <img src="./img/bannerTop.png" alt="logo">
+                    <!--intelligent manufacturing-->
+                </div>
+                <div class="fr suoyin">
+                    <span  data-id=0>首页</span>&nbsp;&nbsp;
+                    <span  data-id="1">关于我们</span>&nbsp;&nbsp;
+                    <span class="active" data-id="2">成员介绍</span>&nbsp;&nbsp;
+                    <span  data-id="3">招聘求职</span>&nbsp;&nbsp;
+                    <span  data-id="4">联系我们</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+            <h2>成员介绍</h2>
+            <!--轮播图-->
+            <!--<div data-toggle="modal" data-target="#myModal">
+                <a class="chocolat-image" title="Rose">
+                    <div>
+                        <img src="./img/bg1.png" style="width:75px; height:50px" alt="">
+                    </div>
+                </a>
+            </div>-->
+            <span class="icon iconfont icon-weibiaoti102 qian"></span>
+            <span class="icon iconfont icon-weibiaoti103 xia"></span>
+            <section id="slider">
+                <ul>
+                    <li>
+                            <div class="conImg">
+                                <!--<img src="img/bg1.png" alt="" style="width: 100%;height: 500px;"/>-->
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <a data-toggle="modal" data-target="#personDetail">
+                                                <img src="./img/3.png" alt="">
+                                                <span><i class="icon iconfont icon-yanjing"></i></span>
+                                                <p >余乐乐 教授</p>
+                                                <p>东莞理工学院信息与计算科学</p>
+                                                <p>(主攻／研究方向/团队职位)</p>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <a >
+                                                <img src="./img/touDetail.png" alt="">
+                                                <span><i class="icon iconfont icon-yanjing"></i></span>
+                                                <p >余乐乐 教授</p>
+                                                <p>东莞理工学院信息与计算科学</p>
+                                                <p>(主攻／研究方向/团队职位)</p>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <a >
+                                                <img src="./img/touDetail.png" alt="">
+                                                <span><i class="icon iconfont icon-yanjing"></i></span>
+                                                <p >余乐乐 教授</p>
+                                                <p>东莞理工学院信息与计算科学</p>
+                                                <p>(主攻／研究方向/团队职位)</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </li>
+                    <li>
+                        <div class="conImg">
+                            <!--<img src="img/bg1.png" alt="" style="width: 100%;height: 500px;"/>-->
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <a data-toggle="modal" data-target="#personDetail">
+                                            <img src="./img/1.jpeg" alt="">
+                                            <span><i class="icon iconfont icon-yanjing"></i></span>
+                                            <p >余乐乐 教授</p>
+                                            <p>东莞理工学院信息与计算科学</p>
+                                            <p>(主攻／研究方向/团队职位)</p>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a >
+                                            <img src="./img/touDetail.png" alt="">
+                                            <span><i class="icon iconfont icon-yanjing"></i></span>
+                                            <p >余乐乐 教授</p>
+                                            <p>东莞理工学院信息与计算科学</p>
+                                            <p>(主攻／研究方向/团队职位)</p>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a >
+                                            <img src="./img/touDetail.png" alt="">
+                                            <span><i class="icon iconfont icon-yanjing"></i></span>
+                                            <p >余乐乐 教授</p>
+                                            <p>东莞理工学院信息与计算科学</p>
+                                            <p>(主攻／研究方向/团队职位)</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="conImg">
+                            <!--<img src="img/bg1.png" alt="" style="width: 100%;height: 500px;"/>-->
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <a >
+                                            <img src="./img/2.jpg" alt="">
+                                            <span><i class="icon iconfont icon-yanjing"></i></span>
+                                            <p >余乐乐 教授</p>
+                                            <p>东莞理工学院信息与计算科学</p>
+                                            <p>(主攻／研究方向/团队职位)</p>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a >
+                                            <img src="./img/touDetail.png" alt="">
+                                            <span><i class="icon iconfont icon-yanjing"></i></span>
+                                            <p >余乐乐 教授</p>
+                                            <p>东莞理工学院信息与计算科学</p>
+                                            <p>(主攻／研究方向/团队职位)</p>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a >
+                                            <img src="./img/touDetail.png" alt="">
+                                            <span><i class="icon iconfont icon-yanjing"></i></span>
+                                            <p >余乐乐 教授</p>
+                                            <p>东莞理工学院信息与计算科学</p>
+                                            <p>(主攻／研究方向/团队职位)</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="conImg">
+                            <!--<img src="img/bg1.png" alt="" style="width: 100%;height: 500px;"/>-->
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <a >
+                                            <img src="./img/3.png" alt="">
+                                            <span><i class="icon iconfont icon-yanjing"></i></span>
+                                            <p >余乐乐 教授</p>
+                                            <p>东莞理工学院信息与计算科学</p>
+                                            <p>(主攻／研究方向/团队职位)</p>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a >
+                                            <img src="./img/touDetail.png" alt="">
+                                            <span><i class="icon iconfont icon-yanjing"></i></span>
+                                            <p >余乐乐 教授</p>
+                                            <p>东莞理工学院信息与计算科学</p>
+                                            <p>(主攻／研究方向/团队职位)</p>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a >
+                                            <img src="./img/1.jpeg" alt="">
+                                            <span><i class="icon iconfont icon-yanjing"></i></span>
+                                            <p >余乐乐 教授</p>
+                                            <p>东莞理工学院信息与计算科学</p>
+                                            <p>(主攻／研究方向/团队职位)</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="conImg">
+                            <!--<img src="img/bg1.png" alt="" style="width: 100%;height: 500px;"/>-->
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <a >
+                                            <img src="./img/1.jpeg" alt="">
+                                            <span><i class="icon iconfont icon-yanjing"></i></span>
+                                            <p >余乐乐 教授</p>
+                                            <p>东莞理工学院信息与计算科学</p>
+                                            <p>(主攻／研究方向/团队职位)</p>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a >
+                                            <img src="./img/touDetail.png" alt="">
+                                            <span><i class="icon iconfont icon-yanjing"></i></span>
+                                            <p >余乐乐 教授</p>
+                                            <p>东莞理工学院信息与计算科学</p>
+                                            <p>(主攻／研究方向/团队职位)</p>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a >
+                                            <img src="./img/touDetail.png" alt="">
+                                            <span><i class="icon iconfont icon-yanjing"></i></span>
+                                            <p >余乐乐 教授</p>
+                                            <p>东莞理工学院信息与计算科学</p>
+                                            <p>(主攻／研究方向/团队职位)</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+
+        </div>
+</div>
+
+<!--招聘信息-->
+<div id="teamWanted" class="panel indexCom"  data-section-name="page5">
+    <div style="padding-top:10px;padding-bottom: 10px; background-color:rgba(255,255,255,0.9);">
+        <div class="container">
+
+            <div class="all">
+                <div class="fl">
+                    <img src="./img/bannerTop.png" alt="logo">
+                    <!--intelligent manufacturing-->
+                </div>
+                <div class="fr suoyin">
+                    <span  data-id=0>首页</span>&nbsp;&nbsp;
+                    <span  data-id="1">关于我们</span>&nbsp;&nbsp;
+                    <span  data-id="2">成员介绍</span>&nbsp;&nbsp;
+                    <span class="active" data-id="3">招聘求职</span>&nbsp;&nbsp;
+                    <span  data-id="4">联系我们</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--<div class="container">-->
+        <div class="row">
+                <div class="col-md-4">
+                    <div class="baoGuo" >
+                        <div class='wantedLeft' >
+                            <h3>应聘条件</h3>
+                            <p>
+                                <span class="icon iconfont icon-shixinyuan"></span>
+                                有严谨的科学态度和献身科学、追求卓越的学术理想，及独立开展创新性研究的信心；
+                            </p>
+                            <p>
+                                <span class="icon iconfont icon-shixinyuan"></span>
+                                具有团队第一的合作精神和优良的英文写作与沟通能力；
+                            </p>
+                            <p>
+                                <span class="icon iconfont icon-shixinyuan"></span>
+                                具有坚实的理论基础和良好的发展潜质，乐于学习和开辟新领域尤其是交叉学科研究；
+                            </p>
+                            <p>
+                                <span class="icon iconfont icon-shixinyuan"></span>
+                                有严谨的科学态度和献身科学、追求卓越的学术理想，及独立开展创新性研究的信心；
+                            </p>
+                            <p>
+                                <span class="icon iconfont icon-shixinyuan"></span>
+                                具有团队第一的合作精神和优良的英文写作与沟通能力；
+                            </p>
+                            <p>
+                                <span class="icon iconfont icon-shixinyuan"></span>
+                                具有坚实的理论基础和良好的发展潜质，乐于学习和开辟新领域尤其是交叉学科研究；
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="wantedMiddle">
+                        <h3>招募令</h3>
+                        <p>智能创造创新实验室团队面向“第四次工业革命”诚聘“智能计算英才“。 </p>
+                        <span>work with us</span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="baoGuo" >
+                        <div class="wantedRight">
+                        <h3>申请条件</h3>
+                        <p>
+                            <span class="icon iconfont icon-shixinyuan"></span>
+                            有严谨的科学态度和献身科学、追求卓越的学术理想，及独立开展创新性研究的信心；
+                        </p>
+                        <p>
+                            <span class="icon iconfont icon-shixinyuan"></span>
+                            具有团队第一的合作精神和优良的英文写作与沟通能力；
+                        </p>
+                        <p>
+                            <span class="icon iconfont icon-shixinyuan"></span>
+                            具有坚实的理论基础和良好的发展潜质，乐于学习和开辟新领域尤其是交叉学科研究；
+                        </p>
+                        <p>
+                            <span class="icon iconfont icon-shixinyuan"></span>
+                            有严谨的科学态度和献身科学、追求卓越的学术理想，及独立开展创新性研究的信心；
+                        </p>
+                        <p>
+                            <span class="icon iconfont icon-shixinyuan"></span>
+                            具有团队第一的合作精神和优良的英文写作与沟通能力；
+                        </p>
+                        <p>
+                            <span class="icon iconfont icon-shixinyuan"></span>
+                            具有坚实的理论基础和良好的发展潜质，乐于学习和开辟新领域尤其是交叉学科研究；
+                        </p>
+                    </div>
+                    </div>
+                </div>
+        </div>
+    <!--</div>-->
+</div>
+<!--联系地址-->
+<div id="teamAddress" class="panel indexCom"  data-section-name="page4">
+    <div style="padding-top:10px;padding-bottom: 10px; background-color:rgba(255,255,255,0.2);">
+        <div class="container">
+
+            <div class="all">
+                <div class="fl">
+                    <img src="./img/bannerTop.png" alt="logo">
+                    <!--intelligent manufacturing-->
+                </div>
+                <div class="fr suoyin">
+                    <span  data-id=0>首页</span>&nbsp;&nbsp;
+                    <span  data-id="1">关于我们</span>&nbsp;&nbsp;
+                    <span  data-id="2">成员介绍</span>&nbsp;&nbsp;
+                    <span data-id="3">招聘求职</span>
+                    <span  class="active" data-id="4">联系我们</span>&nbsp;&nbsp;
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="allmap"></div>
+</div>
+
+<!--人物介绍-->
+<div class="modal fade bs-example-modal-lg" id="personDetail" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content" style="padding-bottom: 20px;">
+            <header>
+                <div>
+                    <img src="./img/touDetail.png" alt="">
+                </div>
+            </header>
+            <p class="name">余乐乐 教授</p>
+            <div class="keYan">
+                <p class="keYanTitle allTitle">
+                    <!--<span class="icon iconfont icon-jingli"></span>-->
+                    <span class="pull-left">科研经历</span>
+                    <span class="pull-right">experience</span>
+                </p>
+                <div class="keYanCon allCon">
+                    <div class="keYanConLeft allConLeft">
+                        <p>
+                            <span>1994年11月</span>
+                            <span class="icon iconfont icon-yousanjiao-copy"></span>
+                            <span class="icon iconfont icon-shixinyuan"></span>
+                        </p>
+                    </div>
+                    <div class="keYanConRight allConRight">
+                        向伦敦权威的数学杂志投了一篇论文，题为《论数字计算在
+                        决断难题中的应用》
+                    </div>
+                </div>
+                <div class="keYanCon allCon">
+                    <div class="keYanConLeft allConLeft">
+                        <p>
+                            <span>1994年11月</span>
+                            <span class="icon iconfont icon-yousanjiao-copy"></span>
+                            <span class="icon iconfont icon-shixinyuan"></span>
+                        </p>
+                    </div>
+                    <div class="keYanConRight allConRight">
+                        向伦敦权威的数学杂志投了一篇论文，题为《论数字计算在
+                        决断难题中的应用》
+                    </div>
+                </div>
+                <div class="keYanCon allCon">
+                    <div class="keYanConLeft allConLeft">
+                        <p>
+                            <span>1994年11月</span>
+                            <span class="icon iconfont icon-yousanjiao-copy"></span>
+                            <span class="icon iconfont icon-shixinyuan"></span>
+                        </p>
+                    </div>
+                    <div class="keYanConRight allConRight">
+                        向伦敦权威的数学杂志投了一篇论文，题为《论数字计算在
+                        决断难题中的应用》
+                    </div>
+                </div>
+<!--                <div class="row">
+                    <div class="col-md-3 jingLiTime">
+                        1995年05月
+                    </div>
+                    <div class="col-md-9  jingLiCon">
+                        考入剑桥大学国王学院，由于成绩优异而获得数学奖学金。在剑桥，
+                        他的数学能力得到充分的发展。考入剑桥大学国王学院，由于成绩优异而获得数学奖学金。在剑桥，
+                        他的数学能力得到充分的发展。
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 jingLiTime">
+                        1995年05月
+                    </div>
+                    <div class="col-md-9  jingLiCon">
+                        考入剑桥大学国王学院，由于成绩优异而获得数学奖学金。在剑桥，
+                        他的数学能力得到充分的发展。考入剑桥大学国王学院，由于成绩优异而获得数学奖学金。在剑桥，
+                        他的数学能力得到充分的发展。
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 jingLiTime">
+                        1995年05月
+                    </div>
+                    <div class="col-md-9  jingLiCon">
+                        考入剑桥大学国王学院，由于成绩优异而获得数学奖学金。在剑桥，
+                        他的数学能力得到充分的发展。考入剑桥大学国王学院，由于成绩优异而获得数学奖学金。在剑桥，
+                        他的数学能力得到充分的发展。
+                    </div>
+                </div>-->
+            </div>
+            <div class="mainAchievement clearfix">
+                <p class="achiveTitle">
+                    <span class="pull-left">主要成就</span>
+                    <span class="pull-right">achievement</span>
+                </p>
+                <div>
+                    <p class="achiveName"><span class="icon iconfont icon-comiisjiahao"></span>可计算理论</p>
+                    <div class="achiveCon">
+                        可行性计算理论，可以说是人类最先遇到的数学课题，并且在漫长的历史年代里，成为人们社会生活中不可或缺的工具．可行性计算理论，可以说是人类最遇到的数学课题，并且在漫长的历史年代里，成为人们社会生活中不可或缺的工具．
+                    </div>
+                </div>
+                <div>
+                    <p class="achiveName"><span class="icon iconfont icon-comiisjiahao"></span>可计算理论</p>
+                    <div class="achiveCon">
+                        可行性计算理论，可以说是人类最先遇到的数学课题，并且在漫长的历史年代里，成为人们社会生活中不可或缺的工具．可行性计算理论，可以说是人类最遇到的数学课题，并且在漫长的历史年代里，成为人们社会生活中不可或缺的工具．
+                    </div>
+                </div>
+                <div>
+                    <p class="achiveName"><span class="icon iconfont icon-comiisjiahao"></span>可计算理论</p>
+                    <div class="achiveCon">
+                        可行性计算理论，可以说是人类最先遇到的数学课题，并且在漫长的历史年代里，成为人们社会生活中不可或缺的工具．可行性计算理论，可以说是人类最遇到的数学课题，并且在漫长的历史年代里，成为人们社会生活中不可或缺的工具．
+                    </div>
+                </div>
+
+            </div>
+            <div class="mainHonor">
+                <p class="hornorTitle allTitle">
+                    <span class="pull-left">主要荣誉</span>
+                    <span class="pull-right">honor</span>
+                </p>
+                <div class="honorCon allCon">
+                    <div class="honorConLeft allConLeft">
+                        <p>
+                            <span>1994年11月</span>
+                            <span class="icon iconfont icon-yousanjiao-copy"></span>
+                            <span class="icon iconfont icon-shixinyuan"></span>
+                        </p>
+                    </div>
+                    <div class="honorConRight allConRight">
+                        向伦敦权威的数学杂志投了一篇论文，题为《论数字计算在
+                        决断难题中的应用》
+                    </div>
+                </div>
+                <div class="honorCon allCon">
+                    <div class="honorConLeft allConLeft">
+                        <p>
+                            <span>1994年11月</span>
+                            <span class="icon iconfont icon-yousanjiao-copy"></span>
+                            <span class="icon iconfont icon-shixinyuan"></span>
+                        </p>
+                    </div>
+                    <div class="honorConRight allConRight">
+                        向伦敦权威的数学杂志投了一篇论文，题为《论数字计算在
+                        决断难题中的应用》
+                    </div>
+                </div>
+                <div class="honorCon allCon">
+                    <div class="honorConLeft allConLeft">
+                        <p>
+                            <span>1994年11月</span>
+                            <span class="icon iconfont icon-yousanjiao-copy"></span>
+                            <span class="icon iconfont icon-shixinyuan"></span>
+                        </p>
+                    </div>
+                    <div class="honorConRight allConRight">
+                        向伦敦权威的数学杂志投了一篇论文，题为《论数字计算在
+                        决断难题中的应用》
+                    </div>
+                </div>
+
+                <!--<div class="row">
+                    <div class="col-md-3 jingLiTime">
+                        1995年05月
+                    </div>
+                    <div class="col-md-9  jingLiCon">
+                        考入剑桥大学国王学院，由于成绩优异而获得数学奖学金。在剑桥，
+                        他的数学能力得到充分的发展。考入剑桥大学国王学院，由于成绩优异而获得数学奖学金。在剑桥，
+                        他的数学能力得到充分的发展。
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 jingLiTime">
+                        1995年05月
+                    </div>
+                    <div class="col-md-9  jingLiCon">
+                        考入剑桥大学国王学院，由于成绩优异而获得数学奖学金。在剑桥，
+                        他的数学能力得到充分的发展。考入剑桥大学国王学院，由于成绩优异而获得数学奖学金。在剑桥，
+                        他的数学能力得到充分的发展。
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 jingLiTime">
+                        1995年05月
+                    </div>
+                    <div class="col-md-9  jingLiCon">
+                        考入剑桥大学国王学院，由于成绩优异而获得数学奖学金。在剑桥，
+                        他的数学能力得到充分的发展。考入剑桥大学国王学院，由于成绩优异而获得数学奖学金。在剑桥，
+                        他的数学能力得到充分的发展。
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Button trigger modal -->
+
+
+<script src="lib/bootstrap/js/bootstrap.js"></script>
+<script src="js/jquery.mousewheel.min.js"></script>
+<script src="js/index.js"></script>
+<script src="js/map.js"></script>
+</body>
+</html>
