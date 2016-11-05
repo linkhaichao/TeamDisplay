@@ -5,6 +5,7 @@ body {
     font-family: "微软雅黑";
     /*position: relative;*/
     overflow-x: hidden;
+    background: #274a78;
 }
 
 ul {
