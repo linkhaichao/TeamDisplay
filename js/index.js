@@ -150,7 +150,18 @@ var scrollPic = function () {
 };
 $(function () {
     /*关于我们*/
-    $(window).on('load', function () {
+   /* $(window).on('load', function () {
+        $('#teamIndex .container>div:nth-of-type(2)').animate(
+            {
+                opacity: 1
+            }
+            ,1000, function () {
+                $('.wel1').fadeIn(700, function () {
+                    $('.wel2').fadeIn(700);
+                })
+            })
+    });*/
+    $(document).ready(function () {
         $('#teamIndex .container>div:nth-of-type(2)').animate(
             {
                 opacity: 1
